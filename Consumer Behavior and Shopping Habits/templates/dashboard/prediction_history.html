@@ -57,10 +57,9 @@
           <th>PBC2</th>
           <th>PBC3</th>
           <th>PBC4</th>
-          <th>Prediction</th>
-          <th>Confidence</th>
-          <th>User Prediction</th>
-          <th>Is Correct</th>
+          <!-- <th>Prediction</th> -->
+          <!-- <th>User Prediction</th> -->
+          <!-- <th>Is Correct</th> -->
         </tr>
       </thead>
       <tbody>
@@ -92,14 +91,13 @@
           <td>{{item.PBC2}}</td>
           <td>{{item.PBC3}}</td>
           <td>{{item.PBC4}}</td>
-          <td>{{item.prediction}}</td>
-          <td>{{item.prediction_confidence}}</td>
-          <td>{{item.user_prediction}}</td>
-          {% if item.is_correct_prediction %}
-          <td>High</td>
+          <!-- <td>{{item.prediction}}</td> -->
+          <!-- <td>{{item.user_prediction}}</td> -->
+          <!-- {% if item.is_correct_prediction %}
+          <td>YES</td>
           {% else %}
-          <td>Low</td>
-          {% endif %}
+          <td>NO</td>
+          {% endif %} -->
         </tr>
         {% endfor %}
       </tbody>
@@ -123,7 +121,7 @@
   $(document).ready(function () {
     $("#example").DataTable({
       dom: "Bfrtip",
-      buttons: ["copy", "csv", "excel", "pdf", "print"],
+      buttons: ["csv", "excel"],
     });
   });
 </script>

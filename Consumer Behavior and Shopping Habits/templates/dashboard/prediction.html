@@ -20,7 +20,7 @@
                     labels: [{% for label in labels %}'{{ label }}',{% endfor %}],
                     datasets: [
                     {
-                        label: "Confidence",
+                        label: "Prediction ",
                         data: [{% for prob in probability_dict.values %}{{ prob }}, {% endfor %}],
                         backgroundColor: [
                             'rgba(75, 192, 192, 0.2)',
@@ -46,7 +46,7 @@
             </script>
         </div>
 
-        <div class="col-md-4">
+        <!-- <div class="col-md-4">
             <form action="/feedback/" method="POST">
                 {% csrf_token %}
                 <legend>User Feedback</legend>
@@ -65,13 +65,13 @@
                 {% endfor %}
                 <button type="submit" class="btn btn-success btn-lg">Submit</button>
             </form>
-        </div>
+        </div> -->
     </div>
 
     <div class="border-top my-3 mt-5"></div>
 
     <div class="row mt-5 pl-3">
-        <h4>Prediction is <span class="badge badge-info pt-2 pb-2 pr-2 pl-2">{{ prediction }}</span></h4>
+        <h4>Consumer Behavior and Shopping Habits is <span class="badge badge-info pt-2 pb-2 pr-2 pl-2">{{ prediction }}</span></h4>
     </div>
 </div>
 {% endblock content %}

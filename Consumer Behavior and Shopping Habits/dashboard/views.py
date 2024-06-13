@@ -59,9 +59,7 @@ def prediction(request):
 
         # Convert applicable form data to integers
         try:
-            labels = [
-                form_data['age'], form_data['income'], form_data['internet_hours'],
-                int(form_data['PB1']), int(form_data['PB2']), int(form_data['PB3']), int(form_data['PB4']),
+            numerical_data = [
                 int(form_data['ATTD1']), int(form_data['ATTD2']), int(form_data['ATTD3']), int(form_data['ATTD4']),
                 int(form_data['SN1']), int(form_data['SN2']), int(form_data['SN3']), int(form_data['SN4']),
                 int(form_data['PBC1']), int(form_data['PBC2']), int(form_data['PBC3']), int(form_data['PBC4'])
@@ -69,10 +67,14 @@ def prediction(request):
         except ValueError:
             return HttpResponse("Form contains invalid data.", status=400)
 
-        # Example of combining the data into a single string (you can customize this)
-        combined_text = ' '.join(form_data.values())
-        prediction = pipe_lr.predict([combined_text].reshape(1, -1))[0]
-        probability = pipe_lr.predict_proba([combined_text])[0]
+        # Ensure numerical_data is in the correct shape (2D array with shape (1, num_features))
+        numerical_data = np.array(numerical_data).reshape(1, -1)
+
+        # Predict using the pipeline
+        prediction = pipe_lr.predict(numerical_data)[0]
+
+        # Get the probability estimates
+        probability = pipe_lr.predict_proba(numerical_data)[0]
 
         # Assuming the model has two classes: 'high' and 'low'
         labels = pipe_lr.classes_
