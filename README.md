@@ -14,17 +14,17 @@ North South University<br>
 Dhaka, Bangladesh<br>
 md.baker@northsouth.edu<br>
 
-- Syed Niamul Kazbe Rayian
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-syed.rayian@northsouth.edu
+- Syed Niamul Kazbe Rayian<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+syed.rayian@northsouth.edu<br>
 
-- Fatema Akter Rimi
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-fatema.akter02@northsouth.edu
+- Fatema Akter Rimi<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+fatema.akter02@northsouth.edu<br>
 
 
 ## Installation
@@ -37,5 +37,5 @@ fatema.akter02@northsouth.edu
     
 ## Screenshots
 
+https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/1.png
 
-![alt text](7.png)
