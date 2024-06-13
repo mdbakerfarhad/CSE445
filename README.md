@@ -8,11 +8,11 @@ The models we trained are Naive Bayes, Support Vector Classifier(svm), Random Fo
 
 ## Authors
 
-- Md. Baker
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-md.baker@northsouth.edu
+- Md. Baker<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+md.baker@northsouth.edu<br>
 
 - Syed Niamul Kazbe Rayian
 Electrical and Computer Engineering
