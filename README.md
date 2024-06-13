@@ -37,5 +37,11 @@ fatema.akter02@northsouth.edu<br>
     
 ## Screenshots
 
-![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/1.png)
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/1.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/2.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/3.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/4.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/5.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/6.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/7.png)
 
