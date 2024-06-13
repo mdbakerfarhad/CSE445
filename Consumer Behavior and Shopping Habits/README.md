@@ -8,23 +8,23 @@ The models we trained are Naive Bayes, Support Vector Classifier(svm), Random Fo
 
 ## Authors
 
-- Md. Baker
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-md.baker@northsouth.edu
+- Md. Baker<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+md.baker@northsouth.edu<br>
 
-- Syed Niamul Kazbe Rayian
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-syed.rayian@northsouth.edu
+- Syed Niamul Kazbe Rayian<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+syed.rayian@northsouth.edu<br>
 
-- Fatema Akter Rimi
-Electrical and Computer Engineering
-North South University
-Dhaka, Bangladesh
-fatema.akter02@northsouth.edu
+- Fatema Akter Rimi<br>
+Electrical and Computer Engineering<br>
+North South University<br>
+Dhaka, Bangladesh<br>
+fatema.akter02@northsouth.edu<br>
 
 
 ## Installation
@@ -37,5 +37,11 @@ fatema.akter02@northsouth.edu
     
 ## Screenshots
 
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/1.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/2.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/3.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/4.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/5.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/6.png)<br>
+![Alt text](https://github.com/mdbakerfarhad/CSE445/blob/main/Consumer%20Behavior%20and%20Shopping%20Habits/screenshots/7.png)
 
-![alt text](7.png)
