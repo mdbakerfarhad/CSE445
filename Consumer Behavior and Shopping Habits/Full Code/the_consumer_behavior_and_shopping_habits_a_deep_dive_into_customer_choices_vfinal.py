@@ -11,6 +11,10 @@ Original file is located at
 
 pip install scikit-plot
 
+pip install lime
+
+pip install selenium pillow
+
 pip install scikit-fuzzy
 
 # Commented out IPython magic to ensure Python compatibility.
@@ -860,6 +864,42 @@ skplt.metrics.plot_precision_recall(y_test, y_probas, figsize = (8,6), plot_micr
 from sklearn.model_selection import ShuffleSplit
 cv = ShuffleSplit(n_splits=1, test_size=0.2, random_state=0)
 skplt.estimators.plot_learning_curve(Ada_clf, X, y, cv = cv,title = "AdaBost Classifier");
+
+pip install lime
+
+import lime
+import lime.lime_tabular
+from lime.lime_tabular import LimeTabularExplainer
+
+# Create the LIME explainer
+explainer = lime.lime_tabular.LimeTabularExplainer(
+    training_data=np.array(X_train),
+    mode="classification",
+    feature_names=X_train.columns,
+    categorical_features=[0],  # If you have categorical features, specify their indices
+    class_names=["Low", "High"],  # Specify your class names
+    verbose=True,
+    random_state=42
+)
+
+
+# Choose a specific instance from the test set for explanation
+explanation_instance = X_test.iloc[0]
+
+# Get the explanation for the instance
+explanation = explainer.explain_instance(
+    explanation_instance,
+    Ada_clf.predict_proba,
+    num_features=len(X_train.columns)  # Number of features to show in explanation
+)
+
+# Print the explanation for the predicted class
+explanation.show_in_notebook()
+
+explanation.as_list()
+
+# Save the explanation as an image
+explanation.save_to_file('lime_explanation.html')
 
 import joblib
 
